@@ -183,6 +183,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>CustomObjBBB__c.Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>CustomObjBBB__c.mail__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>CustomObj__c.CustomField__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -250,6 +260,11 @@
         <editable>true</editable>
         <field>Opportunity.TrackingNumber__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>customObjCCC__c.number__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
@@ -376,6 +391,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CustomCustomB__c-CustomA Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CustomObjBBB__c-CustomObjAAA Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CustomObj__c-CustomObjレイアウト</layout>
@@ -640,6 +658,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>customObjCCC__c-customObjCCC Layout</layout>
     </layoutAssignments>
     <userLicense>Partner Community</userLicense>
     <userPermissions>
