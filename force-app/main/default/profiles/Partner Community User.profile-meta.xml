@@ -181,9 +181,9 @@
         <field>CustomCustomB__c.FieldA__c</field>
         <readable>false</readable>
     </fieldPermissions>
-    <fieldPermissions>
+        <fieldPermissions>
         <editable>false</editable>
-<field>CustomObjBBB__c.Date__c</field>
+        <field>CustomObjBBB__c.Date__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -402,7 +402,6 @@
     <layoutAssignments>
         <layout>CustomObjAAA__c-CustomObjAAA Layout</layout>
     </layoutAssignments>
-</layoutAssignments>
     <layoutAssignments>
         <layout>CustomObj__c-CustomObjレイアウト</layout>
     </layoutAssignments>

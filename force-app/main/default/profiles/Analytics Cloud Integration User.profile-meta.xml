@@ -403,7 +403,6 @@
     <layoutAssignments>
         <layout>CustomObjAAA__c-CustomObjAAA Layout</layout>
     </layoutAssignments>
-</layoutAssignments>
     <layoutAssignments>
         <layout>CustomObj__c-CustomObjレイアウト</layout>
     </layoutAssignments>
@@ -686,7 +685,7 @@
         <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
-<object>CustomObjBBB__c</object>
+        <object>CustomObjBBB__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -696,7 +695,7 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>CustomObjAAA__c</object>
-<viewAllRecords>true</viewAllRecords>
+        <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>false</allowCreate>
