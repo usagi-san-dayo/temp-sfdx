@@ -169,6 +169,7 @@
 	</types>
 	<types>
 		<members>CustomCustomB__c</members>
+		<members>CustomObjAAA__c</members>
 		<members>CustomObj__c</members>
 		<name>CustomObject</name>
 	</types>
