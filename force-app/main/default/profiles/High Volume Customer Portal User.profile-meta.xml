@@ -1618,6 +1618,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>CustomA__c.FieldA__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>CustomObj__c.CustomField__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -3883,6 +3888,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CreditMemoLine-Credit Memo Line Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CustomA__c-CustomA Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CustomObj__c-CustomObjレイアウト</layout>
