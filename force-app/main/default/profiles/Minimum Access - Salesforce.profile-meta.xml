@@ -183,6 +183,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>CustomObjBBB__c.Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CustomObjBBB__c.mail__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>CustomObjAAA__c.Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -256,6 +266,11 @@
         <field>Opportunity.TrackingNumber__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>customObjCCC__c.number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>AlternativePaymentMethod-Alternative Payment Method Layout</layout>
     </layoutAssignments>
@@ -324,6 +339,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CustomCustomB__c-CustomA Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CustomObjBBB__c-CustomObjAAA Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CustomObjAAA__c-CustomObjAAA Layout</layout>
@@ -447,6 +465,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>WorkStepTemplate-Work Step Template Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>customObjCCC__c-customObjCCC Layout</layout>
     </layoutAssignments>
     <userLicense>Salesforce</userLicense>
     <userPermissions>

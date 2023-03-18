@@ -172,6 +172,8 @@
 		<members>CustomObjAAA__c</members>
 		<members>CustomObj__c</members>
 		<name>CustomObject</name>
+		<members>CustomObjBBB__c</members>
+		<members>customObjCCC__c</members>
 	</types>
 	<types>
 		<members>*</members>
