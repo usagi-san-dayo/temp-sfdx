@@ -153,9 +153,9 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>CustomObj</label>
+    <label>CustomCustomB</label>
     <nameField>
-        <label>CustomObj名</label>
+        <label>CustomA Name</label>
         <type>Text</type>
     </nameField>
     <searchLayouts></searchLayouts>

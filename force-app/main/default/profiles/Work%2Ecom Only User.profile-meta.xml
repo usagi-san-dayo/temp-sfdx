@@ -1618,6 +1618,9 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+<<<<<<< HEAD
+        <field>CustomCustomB__c.FieldA__c</field>
+=======
         <field>CustomA__c.FieldA__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1639,6 +1642,7 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>CustomObj__c.CustomPhone__c</field>
+>>>>>>> origin/master
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3890,10 +3894,14 @@
         <layout>CreditMemoLine-Credit Memo Line Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+<<<<<<< HEAD
+        <layout>CustomCustomB__c-CustomA Layout</layout>
+=======
         <layout>CustomA__c-CustomA Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CustomObj__c-CustomObjレイアウト</layout>
+>>>>>>> origin/master
     </layoutAssignments>
     <layoutAssignments>
         <layout>Customer-Customer Layout</layout>

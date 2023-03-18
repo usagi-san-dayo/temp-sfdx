@@ -140,6 +140,7 @@
 		<members>Contact.Languages__c</members>
 		<members>Contact.Level__c</members>
 		<members>CustomA__c.FieldA__c</members>
+		<members>CustomCustomB__c.FieldA__c</members>
 		<members>CustomObj__c.CustomField__c</members>
 		<members>CustomObj__c.CustomNumber__c</members>
 		<members>CustomObj__c.CustomPercent__c</members>
@@ -238,7 +239,6 @@
 		<members>CreditMemo</members>
 		<members>CreditMemoInvApplication</members>
 		<members>CreditMemoLine</members>
-		<members>CustomA__c</members>
 		<members>CustomObj__c</members>
 		<members>Customer</members>
 		<members>DandBCompany</members>
