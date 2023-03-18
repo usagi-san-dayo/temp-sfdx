@@ -193,6 +193,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>CustomObjAAA__c.Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>CustomObj__c.CustomField__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -395,6 +400,10 @@
     <layoutAssignments>
         <layout>CustomObjBBB__c-CustomObjAAA Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>CustomObjAAA__c-CustomObjAAA Layout</layout>
+    </layoutAssignments>
+</layoutAssignments>
     <layoutAssignments>
         <layout>CustomObj__c-CustomObjレイアウト</layout>
     </layoutAssignments>
@@ -677,8 +686,17 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>CustomObjBBB__c</object>
+<object>CustomObjBBB__c</object>
         <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CustomObjAAA__c</object>
+<viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
