@@ -1618,7 +1618,31 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+<<<<<<< HEAD
         <field>CustomCustomB__c.FieldA__c</field>
+=======
+        <field>CustomA__c.FieldA__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CustomObj__c.CustomField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CustomObj__c.CustomNumber__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CustomObj__c.CustomPercent__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CustomObj__c.CustomPhone__c</field>
+>>>>>>> origin/master
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3870,7 +3894,14 @@
         <layout>CreditMemoLine-Credit Memo Line Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+<<<<<<< HEAD
         <layout>CustomCustomB__c-CustomA Layout</layout>
+=======
+        <layout>CustomA__c-CustomA Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CustomObj__c-CustomObjレイアウト</layout>
+>>>>>>> origin/master
     </layoutAssignments>
     <layoutAssignments>
         <layout>Customer-Customer Layout</layout>
@@ -4391,7 +4422,20 @@
         <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
+<<<<<<< HEAD
         <object>CustomCustomB__c</object>
+=======
+        <object>CustomA__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CustomObj__c</object>
+>>>>>>> origin/master
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
