@@ -1618,22 +1618,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>CustomObj__c.CustomField__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>CustomObj__c.CustomNumber__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>CustomObj__c.CustomPercent__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>CustomObj__c.CustomPhone__c</field>
+        <field>CustomCustomB__c.FieldA__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3885,7 +3870,7 @@
         <layout>CreditMemoLine-Credit Memo Line Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>CustomObj__c-CustomObjレイアウト</layout>
+        <layout>CustomCustomB__c-CustomA Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Customer-Customer Layout</layout>
