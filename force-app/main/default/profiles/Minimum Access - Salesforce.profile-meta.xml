@@ -3,7 +3,7 @@
     <applicationVisibilities>
         <application>standard__AllTabSet</application>
         <default>true</default>
-        <visible>false</visible>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__AppLauncher</application>
@@ -183,6 +183,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>CustomObjAAA__c.Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>CustomObj__c.CustomField__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -319,6 +324,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CustomCustomB__c-CustomA Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CustomObjAAA__c-CustomObjAAA Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CustomObj__c-CustomObjレイアウト</layout>
