@@ -181,7 +181,27 @@
         <field>CustomCustomB__c.FieldA__c</field>
         <readable>false</readable>
     </fieldPermissions>
-        <fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>CustomObjAAA__c.AAAA__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>CustomObjAAA__c.Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>CustomObjAAA__c.aaaaa__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>CustomObjAAA__c.aaaaaa__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>CustomObjBBB__c.Date__c</field>
         <readable>false</readable>
@@ -192,10 +212,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>CustomObjAAA__c.Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
         <editable>false</editable>
         <field>CustomObj__c.CustomField__c</field>
         <readable>false</readable>
@@ -270,6 +286,9 @@
         <field>customObjCCC__c.number__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>AAAAA__c-AAAAA Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -397,10 +416,10 @@
         <layout>CustomCustomB__c-CustomA Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>CustomObjBBB__c-CustomObjAAA Layout</layout>
+        <layout>CustomObjAAA__c-CustomObjAAA Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>CustomObjAAA__c-CustomObjAAA Layout</layout>
+        <layout>CustomObjBBB__c-CustomObjAAA Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CustomObj__c-CustomObjレイアウト</layout>
