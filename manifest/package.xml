@@ -168,12 +168,8 @@
 		<name>CustomMetadata</name>
 	</types>
 	<types>
-		<members>CustomCustomB__c</members>
-		<members>CustomObjAAA__c</members>
-		<members>CustomObj__c</members>
+		<members>*</members>
 		<name>CustomObject</name>
-		<members>CustomObjBBB__c</members>
-		<members>customObjCCC__c</members>
 	</types>
 	<types>
 		<members>*</members>
