@@ -188,6 +188,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>CustomObjAAA__c.AAAA__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>CustomObjAAA__c.Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -198,7 +203,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>CustomObjAAA__c.aaaaa__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>CustomObjAAA__c.bbbbbb__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CustomObjAAA__c.aaaaaa__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -286,6 +301,9 @@
         <field>customObjCCC__c.number__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>AAAAA__c-AAAAA Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -695,6 +713,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>BBBBB__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>AAAAA__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
