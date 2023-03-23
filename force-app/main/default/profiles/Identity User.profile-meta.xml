@@ -110,6 +110,10 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
+    <classAccesses>
+        <apexClass>HelloWorld</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
@@ -193,6 +197,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>CustomObjAAA__c.BBBB__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>CustomObjAAA__c.Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -214,6 +223,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>CustomObjAAA__c.aaaaaa__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CustomObjAAA__c.bbbbb__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CustomObjAAA__c.bbbbbb__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
