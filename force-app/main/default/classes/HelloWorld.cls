@@ -3,6 +3,7 @@ public with sharing class HelloWorld {
         System.debug('Hello World');
     }
     public void printHello() {
-        System.debug('Hello');
+        String str = 'hello';
+        System.debug(str);
     }
 }
