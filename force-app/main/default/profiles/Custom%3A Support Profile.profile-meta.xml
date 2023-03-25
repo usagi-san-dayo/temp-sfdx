@@ -187,11 +187,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>CustomObjAAA__c.BBBB__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>CustomObjAAA__c.AAAA__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -207,17 +202,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>CustomObjAAA__c.bbbbb__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>CustomObjAAA__c.aaaaa__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>CustomObjAAA__c.bbbbbb__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
