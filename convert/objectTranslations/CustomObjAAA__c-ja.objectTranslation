@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CustomObjAAA</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>aaaaaa__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>aaaaa__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>AAAA__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>bbbbbb__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>bbbbb__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>BBBB__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Date__c</name>
+    </fields>
+</CustomObjectTranslation>
