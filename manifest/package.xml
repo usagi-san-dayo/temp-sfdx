@@ -34,10 +34,6 @@
 	</types>
 	<types>
 		<members>*</members>
-		<name>AppMenu</name>
-	</types>
-	<types>
-		<members>*</members>
 		<name>AppointmentSchedulingPolicy</name>
 	</types>
 	<types>

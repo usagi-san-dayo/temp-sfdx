@@ -187,11 +187,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>CustomObjAAA__c.BBBB__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>CustomObjAAA__c.AAAA__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -203,21 +198,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>CustomObjAAA__c.Date__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>CustomObjAAA__c.bbbbb__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>CustomObjAAA__c.aaaaa__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>CustomObjAAA__c.bbbbbb__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -243,7 +228,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>CustomObjBBB__c.mail__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
