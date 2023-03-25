@@ -1,7 +1,7 @@
 @isTest 
 private with sharing class HelloWorldTest {
     @isTest
-    public HelloWorldTest() {
+    public void HelloWorldTest() {
         HelloWorld hello = new HelloWorld();
         hello.printHello();
     }

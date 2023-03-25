@@ -88,8 +88,4 @@
         <name>standard__LightningBolt</name>
         <type>CustomApplication</type>
     </appMenuItems>
-    <appMenuItems>
-        <name>DEVHUB_wdb0qmscp3src49kdv1p</name>
-        <type>ConnectedApp</type>
-    </appMenuItems>
 </AppMenu>
