@@ -1,7 +1,7 @@
 @isTest(SeeAllData=true)
 private with sharing class HelloWorldTest {
     @isTest
-    private static testHello() {
+    private static void testHello() {
         HelloWorld.HelloWorld();
     }
 }
