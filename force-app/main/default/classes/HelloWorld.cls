@@ -1,5 +1,8 @@
 public with sharing class HelloWorld {
-    public void printHello(){
-        System.debug('Hello World');
+    public HelloWorld() {
+    }
+    public static void hello() {
+        String str = 'hello';
+        System.debug(str);
     }
 }

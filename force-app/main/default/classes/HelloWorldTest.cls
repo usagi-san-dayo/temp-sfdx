@@ -1,8 +1,8 @@
-@isTest 
+@isTest(SeeAllData=true)
 private with sharing class HelloWorldTest {
     @isTest
-    public static void HelloWorldTest() {
+    private static void testHello() {
         HelloWorld hello = new HelloWorld();
-        hello.printHello();
+        HelloWorld.hello();
     }
 }
