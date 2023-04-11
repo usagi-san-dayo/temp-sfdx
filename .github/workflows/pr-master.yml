@@ -27,13 +27,22 @@ jobs:
         mkdir sfdx-cli
         tar xJf sfdx-linux-amd64.tar.xz -C sfdx-cli --strip-components 1
         ./sfdx-cli/install
- # Runs a set of commands using the runners shell
+    # Generates delta-metadata to deploy to your org
+    - name: Install SFDX & SFDX Git Delta
+      run: |
+        npm install sfdx-cli
+        echo y | node_modules/sfdx-cli/bin/run plugins:install sfdx-git-delta
+    - name: Generate package.xml
+      run: |
+        #Generate package.xml between the current branch & 
+        node_modules/sfdx-cli/bin/run sgd:source:delta --to "HEAD" --from $(git merge-base HEAD origin/master) --output . -i 
+    # Runs a set of commands using the runners shell
     - name: 'Decrypt file'
       run: openssl enc -nosalt -aes-256-cbc -d -in assets/server.key.enc -out server.key -base64 -K ${{secrets.DECRYPTION_KEY}} -iv ${{secrets.DECRYPTION_IV}}
     - name: 'Authorize'
       run: |
         sfdx force:auth:jwt:grant --clientid=${{ secrets.CONSUMER_KEY }} --username=${{ secrets.USERNAME }} --jwtkeyfile server.key --setdefaultdevhubusername --setalias=hub-org
     - name: 'Convert Metadata'
-      run: sfdx force:source:convert --rootdir=force-app --outputdir=convert
+      run: sfdx force:source:convert --rootdir=force-app --packagename package/package.xml　--outputdir=convert
     - name: 'Run Test on Metadata'
       run: sfdx force:mdapi:deploy --deploydir=convert --testlevel=RunLocalTests --wait 10 --checkonly -u hub-org    
