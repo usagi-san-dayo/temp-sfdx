@@ -8,8 +8,6 @@
         <consumerKey>3MVG9n_HvETGhr3Av4OHsNRjABj7YOhoC6CXgOakChzVFP0EVZ5kLyqIRxtsA6mKPR1zq5F4OIolVUAl1025s</consumerKey>
         <isAdminApproved>true</isAdminApproved>
         <isClientCredentialEnabled>false</isClientCredentialEnabled>
-        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
-        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
         <isConsumerSecretOptional>false</isConsumerSecretOptional>
         <isIntrospectAllTokens>false</isIntrospectAllTokens>
         <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
