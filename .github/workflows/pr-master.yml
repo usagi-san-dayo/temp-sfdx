@@ -31,6 +31,8 @@ jobs:
     - name: Install SFDX & SFDX Git Delta
       run: |
         ls
+    - name: Install SFDX & SFDX Git Delta
+      run: |
         echo y | ./sfdx-cli/sfdx/bin/run plugins:install sfdx-git-delta
     - name: Generate package.xml
       run: |
