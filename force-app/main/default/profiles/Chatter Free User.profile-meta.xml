@@ -190,6 +190,11 @@
         <field>customObjCCC__c.number__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>qwerty__c.cccc__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>AAAAA__c-AAAAA Layout</layout>
     </layoutAssignments>
