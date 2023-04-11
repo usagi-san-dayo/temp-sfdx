@@ -13,20 +13,16 @@
 		<name>ApexComponent</name>
 	</types>
 	<types>
-		<members>apexEmailNotifications</members>
-		<name>ApexEmailNotifications</name>
-	</types>
-	<types>
 		<members>*</members>
 		<name>ApexPage</name>
 	</types>
 	<types>
 		<members>*</members>
-		<name>ApexTestSuite</name>
+		<name>ApexTrigger</name>
 	</types>
 	<types>
 		<members>*</members>
-		<name>ApexTrigger</name>
+		<name>AppMenu</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -42,15 +38,43 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>AuthProvider</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>AutoResponseRules</name>
 	</types>
 	<types>
 		<members>*</members>
-		<name>ChannelLayout</name>
+		<name>BrandingSet</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CallCenter</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Certificate</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CleanDataService</name>
 	</types>
 	<types>
 		<members>*</members>
 		<name>Community</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ConnectedApp</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ContentAsset</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CorsWhitelistOrigin</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -77,13 +101,7 @@
 		<name>CustomMetadata</name>
 	</types>
 	<types>
-		<members>AAAAA__c</members>
-		<members>BBBBB__c</members>
-		<members>CustomCustomB__c</members>
-		<members>CustomObjAAA__c</members>
-		<members>CustomObjBBB__c</members>
-		<members>CustomObj__c</members>
-		<members>customObjCCC__c</members>
+		<members>*</members>
 		<name>CustomObject</name>
 	</types>
 	<types>
@@ -108,7 +126,19 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>Dashboard</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>DataCategoryGroup</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>DelegateGroup</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Document</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -116,15 +146,27 @@
 	</types>
 	<types>
 		<members>*</members>
-		<name>EntitlementProcess</name>
+		<name>EclairGeoData</name>
 	</types>
 	<types>
 		<members>*</members>
-		<name>EntitlementTemplate</name>
+		<name>EmailServicesFunction</name>
 	</types>
 	<types>
-		<members>Case</members>
+		<members>*</members>
+		<name>EmailTemplate</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>EscalationRules</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ExternalDataSource</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ExternalServiceRegistration</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -152,11 +194,23 @@
 	</types>
 	<types>
 		<members>*</members>
-		<name>Group</name>
+		<name>HomePageComponent</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>HomePageLayout</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>InstalledPackage</name>
 	</types>
 	<types>
 		<members>*</members>
 		<name>Layout</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Letterhead</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -172,37 +226,31 @@
 	</types>
 	<types>
 		<members>*</members>
-		<name>LightningMessageChannel</name>
-	</types>
-	<types>
-		<members>*</members>
 		<name>MatchingRules</name>
 	</types>
 	<types>
 		<members>*</members>
-		<name>MilestoneType</name>
+		<name>NamedCredential</name>
 	</types>
 	<types>
-		<members>NotificationTypeConfig</members>
-		<name>NotificationTypeConfig</name>
+		<members>*</members>
+		<name>NetworkBranding</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>PathAssistant</name>
 	</types>
 	<types>
 		<members>*</members>
 		<name>PermissionSet</name>
 	</types>
 	<types>
-		<members>force__SubscriptionManagementBillingAdmin</members>
-		<members>force__SubscriptionManagementBillingOperations</members>
-		<members>force__SubscriptionManagementBuyerIntegrationUser</members>
-		<members>force__SubscriptionManagementCollections</members>
-		<members>force__SubscriptionManagementCreditMemoAdjustmentsOperations</members>
-		<members>force__SubscriptionManagementPaymentAdministrator</members>
-		<members>force__SubscriptionManagementPaymentOperations</members>
-		<members>force__SubscriptionManagementProductAndPricingAdmin</members>
-		<members>force__SubscriptionManagementSalesOperationsRep</members>
-		<members>force__SubscriptionManagementSalesRep</members>
-		<members>force__SubscriptionManagementTaxAdmin</members>
-		<name>PermissionSetGroup</name>
+		<members>*</members>
+		<name>PlatformCachePartition</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>PostTemplate</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -210,15 +258,7 @@
 	</types>
 	<types>
 		<members>*</members>
-		<name>ProfilePasswordPolicy</name>
-	</types>
-	<types>
-		<members>*</members>
 		<name>ProfileSessionSetting</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>Prompt</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -229,7 +269,15 @@
 		<name>QuickAction</name>
 	</types>
 	<types>
-		<members>ApexDevNet</members>
+		<members>*</members>
+		<name>RecommendationStrategy</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>RecordActionDeployment</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>RemoteSiteSetting</name>
 	</types>
 	<types>
@@ -242,11 +290,27 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>SamlSsoConfig</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Scontrol</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Settings</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>SharingRules</name>
 	</types>
 	<types>
 		<members>*</members>
-		<name>SharingSet</name>
+		<name>SiteDotCom</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>StandardValueSetTranslation</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -254,11 +318,19 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>SynonymDictionary</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>TopicsForObjects</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>TransactionSecurityPolicy</name>
 	</types>
 	<types>
 		<members>*</members>
 		<name>Workflow</name>
 	</types>
-	<version>55.0</version>
+	<version>56.0</version>
 </Package>

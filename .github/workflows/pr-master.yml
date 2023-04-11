@@ -19,21 +19,25 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
+      with:
+        node-version: '14.6.0'
 
     # Runs a single command using the runners shell
     - name: 'Build and Deploy'
       run: |
-        wget https://developer.salesforce.com/media/salesforce-cli/sfdx-linux-amd64.tar.xz
-        mkdir sfdx-cli
-        tar xJf sfdx-linux-amd64.tar.xz -C sfdx-cli --strip-components 1
-        ./sfdx-cli/install
- # Runs a set of commands using the runners shell
+        npm install sfdx-cli
+        echo y | node_modules/sfdx-cli/bin/run plugins:install sfdx-git-delta
+    - name: 'Generate package.xml'
+      run: |
+        #Generate package.xml between the current branch & 
+        node_modules/sfdx-cli/bin/run sgd:source:delta --to "HEAD" --from "HEAD^" --output . --generate-delta
+    # Runs a set of commands using the runners shell
     - name: 'Decrypt file'
       run: openssl enc -nosalt -aes-256-cbc -d -in assets/server.key.enc -out server.key -base64 -K ${{secrets.DECRYPTION_KEY}} -iv ${{secrets.DECRYPTION_IV}}
     - name: 'Authorize'
       run: |
-        sfdx force:auth:jwt:grant --clientid=${{ secrets.CONSUMER_KEY }} --username=${{ secrets.USERNAME }} --jwtkeyfile server.key --setdefaultdevhubusername --setalias=hub-org
+        node_modules/sfdx-cli/bin/run sfdx force:auth:jwt:grant --clientid=${{ secrets.CONSUMER_KEY }} --username=${{ secrets.USERNAME }} --jwtkeyfile server.key --setdefaultdevhubusername --setalias=hub-org
     - name: 'Convert Metadata'
-      run: sfdx force:source:convert --rootdir=force-app --outputdir=convert
+      run:  node_modules/sfdx-cli/bin/run sfdx force:source:convert --rootdir=force-app --packagename package/package.xml　--outputdir=convert
     - name: 'Run Test on Metadata'
-      run: sfdx force:mdapi:deploy --deploydir=convert --testlevel=RunLocalTests --wait 10 --checkonly -u hub-org    
+      run:  node_modules/sfdx-cli/bin/run sfdx force:mdapi:deploy --deploydir=convert --testlevel=RunLocalTests --wait 10 --checkonly -u hub-org    
