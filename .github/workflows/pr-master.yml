@@ -23,8 +23,6 @@ jobs:
         ref: master
         # Fetch all history commit
         fetch-depth: 0
-    - uses: actions/setup-node@v1
-      with:
         node-version: '14.6.0'
         
     # Runs a single command using the runners shell
