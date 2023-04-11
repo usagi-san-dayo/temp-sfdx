@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>HelloWorld</members>
+        <members>HelloWorldTest</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>CustomObjAAA__c-ja</members>
+        <members>DataCloudGeoLocation</members>
+        <name>CleanDataService</name>
+    </types>
+    <types>
+        <members>qwerty__c.cccc__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>qwerty__c-ja</members>
         <name>CustomObjectTranslation</name>
     </types>
     <types>
-        <members>CustomObjAAA__c-CustomObjAAA Layout</members>
+        <members>qwerty__c-qwerty Layout</members>
         <name>Layout</name>
     </types>
     <types>

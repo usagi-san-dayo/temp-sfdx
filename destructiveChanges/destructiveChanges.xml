@@ -1,30 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <types>
-        <members>BBBBB__c</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Sample</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
-        <members>CustomObjAAA__c.BBBB__c</members>
-        <members>CustomObjAAA__c.bbbbb__c</members>
-        <members>CustomObjAAA__c.bbbbbb__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>BBBBB__c-ja</members>
-        <name>CustomObjectTranslation</name>
-    </types>
-    <types>
-        <members>BBBBB__c-AAAAA Layout</members>
-        <name>Layout</name>
-    </types>
-    <types>
-        <members>BBBBB__c</members>
-        <name>TopicsForObjects</name>
-    </types>
     <version>57.0</version>
 </Package>
