@@ -30,7 +30,8 @@ jobs:
     # Generates delta-metadata to deploy to your org
     - name: Install SFDX & SFDX Git Delta
       run: |
-        echo y | ./sfdx-cli/bin/run plugins:install sfdx-git-delta
+        ls
+        echo y | ./sfdx-cli/sfdx/bin/run plugins:install sfdx-git-delta
     - name: Generate package.xml
       run: |
         #Generate package.xml between the current branch & 
